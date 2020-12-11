@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pizzeria</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='chapter14.css'>
+    
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=h8J3DSuU0BIY8sq8C5zCpuvrR23QtB1ncEz9MUf_xEY6eQKSonS3ShowqMGJksk9H7vMlo0z4_b4h4Mw4mDHerFilb5CjhKw0PvxdnQid5WKHEEx-bc0iDva1i-jvbJp0UQ19wNA04szt5n1CL9c_yvBJtbVvo3Jl09fk-25ISx4ypTHOvsrYVZ2fE6iPQyd3u8oVADRsiBqY4Gsv8OZfM2LjByvpRqCajmH7dFl01WEfc7q2K-TPJy2SvYFE-oHmlq8LxVv21Fri-RwSKx7OfEb2v3gCsOTLjvXr_t2t4lNsb34K6ILuY2pf-bI2O7GMGlC8p5toR57u0xxOphv4w" charset="UTF-8"></script></head>
+<body>
+    <h1>JavaScript Pizzeria</h1>
+
+<div id="orderForm">
+    <label>How many pizzas do you want?
+        <input type="number" id="numPizzas" />
+    </label>
+    <br />
+    <br />
+    <label>What kind of pizzas?
+        <select id="typePizza">
+            <option value="cheese">Cheese</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="supreme">Supreme</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <label>Where do you live?
+        <select id="deliveryCity">
+            <option value="Anytown">Anytown</option>
+            <option value="Sacramento">Sacramento</option>
+            <option value="Beverly Hills">Beverly Hills</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <label>Is it your birthday?
+        <select id="birthday">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <button type="button" id="placeOrder">Place Order</button>
+</div>
+<div id="displayTotal"></div>
+    <script src='chapter14.js'></script>
+</body>
+</html>
